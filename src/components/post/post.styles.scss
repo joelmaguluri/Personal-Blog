@@ -1,0 +1,53 @@
+.title{
+font-family: "Bree Serif script=all rev=3";
+font-weight: 400;
+font-style: normal;
+}
+.mr-2 {
+	margin-right: 0.5rem !important;
+}
+.mx-2 {
+	margin-right: 0.5rem !important;
+}
+[class^="icon-"] {
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	}
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	&::before {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	&::after {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+.blog-entry {
+	.text {
+		.meta-wrap {
+			.meta {
+				span {
+					font-size: 14px;
+					margin: 0 10px 0 0;
+					color: #bfbfbf;
+				}
+			}
+		}
+	}
+}
